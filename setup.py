@@ -12,7 +12,7 @@ except Exception:
 
 setup(
 	# Name of the package 
-	name='sudoku-solver',
+	name='via-sudoku-solver',
 	# Packages to include into the distribution 
 	packages=find_packages('.'),
 	# Start with a small number and increase it with 
@@ -34,7 +34,7 @@ setup(
 	# Either the link to your github or to your website 
 	url='https://github.com/VoIlAlex',
 	# Link from which the project can be downloaded 
-	download_url='https://github.com/VoIlAlex/sudoku-solver/archive/v1.0.0.tag.gz',
+	download_url='https://github.com/VoIlAlex/via-sudoku-solver/archive/v1.0.0.tag.gz',
 	# List of keywords 
 	keywords=[
 		'game',
@@ -59,7 +59,7 @@ setup(
 	],
     entry_points="""
     [console_scripts]
-    sudoku-solver = sudoku_solver.cli:cli
+    via-sudoku-solver = via_sudoku_solver.cli:cli
     """,
     zip_safe=False
 )

@@ -19,7 +19,7 @@ import os
 import click
 import sys
 
-from sudoku_solver.game import Game
+from via_sudoku_solver.game import Game
 
 @click.command()
 @click.option('-d', '--debug', is_flag=True, help="Debug mode.")

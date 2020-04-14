@@ -1,11 +1,11 @@
-# Sudoku solver
+# Sudoku solver | VIA
 
 ## Installation
 
 To install sudoku solver type the following in the terminal:
 
 ```bash
-pip install sudoku-solver
+pip install via-sudoku-solver
 ```
 
 ## Usage
@@ -13,13 +13,13 @@ pip install sudoku-solver
 To start sudoku-solver type the following in your terminal:
 
 ```bash
-sudoku-solver
+via-sudoku-solver
 ```
 
 For help about arguments type:
 
 ```bash
-sudoku-solver --help
+via-sudoku-solver --help
 ```
 
 ## License
